@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF5C48421DD9629E0001F0EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5C48411DD9629E0001F0EF /* AppDelegate.swift */; };
+		AF5C48441DD9629E0001F0EF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5C48431DD9629E0001F0EF /* ViewController.swift */; };
+		AF5C48471DD9629E0001F0EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF5C48451DD9629E0001F0EF /* Main.storyboard */; };
+		AF5C48491DD9629E0001F0EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF5C48481DD9629E0001F0EF /* Assets.xcassets */; };
+		AF5C484C1DD9629E0001F0EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF5C484A1DD9629E0001F0EF /* LaunchScreen.storyboard */; };
+		AF5C48571DD9629E0001F0EF /* useless_pedometerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5C48561DD9629E0001F0EF /* useless_pedometerTests.swift */; };
+		AF5C48621DD9629E0001F0EF /* useless_pedometerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5C48611DD9629E0001F0EF /* useless_pedometerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AF5C48531DD9629E0001F0EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF5C48361DD9629E0001F0EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF5C483D1DD9629E0001F0EF;
+			remoteInfo = "useless pedometer";
+		};
+		AF5C485E1DD9629E0001F0EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF5C48361DD9629E0001F0EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF5C483D1DD9629E0001F0EF;
+			remoteInfo = "useless pedometer";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AF5C483E1DD9629E0001F0EF /* useless pedometer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "useless pedometer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF5C48411DD9629E0001F0EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AF5C48431DD9629E0001F0EF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AF5C48461DD9629E0001F0EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AF5C48481DD9629E0001F0EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AF5C484B1DD9629E0001F0EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AF5C484D1DD9629E0001F0EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF5C48521DD9629E0001F0EF /* useless pedometerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "useless pedometerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF5C48561DD9629E0001F0EF /* useless_pedometerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = useless_pedometerTests.swift; sourceTree = "<group>"; };
+		AF5C48581DD9629E0001F0EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF5C485D1DD9629E0001F0EF /* useless pedometerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "useless pedometerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF5C48611DD9629E0001F0EF /* useless_pedometerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = useless_pedometerUITests.swift; sourceTree = "<group>"; };
+		AF5C48631DD9629E0001F0EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF5C483B1DD9629E0001F0EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF5C484F1DD9629E0001F0EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF5C485A1DD9629E0001F0EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF5C48351DD9629E0001F0EF = {
+			isa = PBXGroup;
+			children = (
+				AF5C48401DD9629E0001F0EF /* useless pedometer */,
+				AF5C48551DD9629E0001F0EF /* useless pedometerTests */,
+				AF5C48601DD9629E0001F0EF /* useless pedometerUITests */,
+				AF5C483F1DD9629E0001F0EF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AF5C483F1DD9629E0001F0EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF5C483E1DD9629E0001F0EF /* useless pedometer.app */,
+				AF5C48521DD9629E0001F0EF /* useless pedometerTests.xctest */,
+				AF5C485D1DD9629E0001F0EF /* useless pedometerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF5C48401DD9629E0001F0EF /* useless pedometer */ = {
+			isa = PBXGroup;
+			children = (
+				AF5C48411DD9629E0001F0EF /* AppDelegate.swift */,
+				AF5C48431DD9629E0001F0EF /* ViewController.swift */,
+				AF5C48451DD9629E0001F0EF /* Main.storyboard */,
+				AF5C48481DD9629E0001F0EF /* Assets.xcassets */,
+				AF5C484A1DD9629E0001F0EF /* LaunchScreen.storyboard */,
+				AF5C484D1DD9629E0001F0EF /* Info.plist */,
+			);
+			path = "useless pedometer";
+			sourceTree = "<group>";
+		};
+		AF5C48551DD9629E0001F0EF /* useless pedometerTests */ = {
+			isa = PBXGroup;
+			children = (
+				AF5C48561DD9629E0001F0EF /* useless_pedometerTests.swift */,
+				AF5C48581DD9629E0001F0EF /* Info.plist */,
+			);
+			path = "useless pedometerTests";
+			sourceTree = "<group>";
+		};
+		AF5C48601DD9629E0001F0EF /* useless pedometerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AF5C48611DD9629E0001F0EF /* useless_pedometerUITests.swift */,
+				AF5C48631DD9629E0001F0EF /* Info.plist */,
+			);
+			path = "useless pedometerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF5C483D1DD9629E0001F0EF /* useless pedometer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF5C48661DD9629E0001F0EF /* Build configuration list for PBXNativeTarget "useless pedometer" */;
+			buildPhases = (
+				AF5C483A1DD9629E0001F0EF /* Sources */,
+				AF5C483B1DD9629E0001F0EF /* Frameworks */,
+				AF5C483C1DD9629E0001F0EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "useless pedometer";
+			productName = "useless pedometer";
+			productReference = AF5C483E1DD9629E0001F0EF /* useless pedometer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AF5C48511DD9629E0001F0EF /* useless pedometerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF5C48691DD9629E0001F0EF /* Build configuration list for PBXNativeTarget "useless pedometerTests" */;
+			buildPhases = (
+				AF5C484E1DD9629E0001F0EF /* Sources */,
+				AF5C484F1DD9629E0001F0EF /* Frameworks */,
+				AF5C48501DD9629E0001F0EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF5C48541DD9629E0001F0EF /* PBXTargetDependency */,
+			);
+			name = "useless pedometerTests";
+			productName = "useless pedometerTests";
+			productReference = AF5C48521DD9629E0001F0EF /* useless pedometerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AF5C485C1DD9629E0001F0EF /* useless pedometerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF5C486C1DD9629E0001F0EF /* Build configuration list for PBXNativeTarget "useless pedometerUITests" */;
+			buildPhases = (
+				AF5C48591DD9629E0001F0EF /* Sources */,
+				AF5C485A1DD9629E0001F0EF /* Frameworks */,
+				AF5C485B1DD9629E0001F0EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF5C485F1DD9629E0001F0EF /* PBXTargetDependency */,
+			);
+			name = "useless pedometerUITests";
+			productName = "useless pedometerUITests";
+			productReference = AF5C485D1DD9629E0001F0EF /* useless pedometerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF5C48361DD9629E0001F0EF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Khalid Mohamed";
+				TargetAttributes = {
+					AF5C483D1DD9629E0001F0EF = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 6P9XFV29Y2;
+						ProvisioningStyle = Automatic;
+					};
+					AF5C48511DD9629E0001F0EF = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 6P9XFV29Y2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AF5C483D1DD9629E0001F0EF;
+					};
+					AF5C485C1DD9629E0001F0EF = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 6P9XFV29Y2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AF5C483D1DD9629E0001F0EF;
+					};
+				};
+			};
+			buildConfigurationList = AF5C48391DD9629E0001F0EF /* Build configuration list for PBXProject "useless pedometer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AF5C48351DD9629E0001F0EF;
+			productRefGroup = AF5C483F1DD9629E0001F0EF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF5C483D1DD9629E0001F0EF /* useless pedometer */,
+				AF5C48511DD9629E0001F0EF /* useless pedometerTests */,
+				AF5C485C1DD9629E0001F0EF /* useless pedometerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF5C483C1DD9629E0001F0EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF5C484C1DD9629E0001F0EF /* LaunchScreen.storyboard in Resources */,
+				AF5C48491DD9629E0001F0EF /* Assets.xcassets in Resources */,
+				AF5C48471DD9629E0001F0EF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF5C48501DD9629E0001F0EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF5C485B1DD9629E0001F0EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF5C483A1DD9629E0001F0EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF5C48441DD9629E0001F0EF /* ViewController.swift in Sources */,
+				AF5C48421DD9629E0001F0EF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF5C484E1DD9629E0001F0EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF5C48571DD9629E0001F0EF /* useless_pedometerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF5C48591DD9629E0001F0EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF5C48621DD9629E0001F0EF /* useless_pedometerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AF5C48541DD9629E0001F0EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF5C483D1DD9629E0001F0EF /* useless pedometer */;
+			targetProxy = AF5C48531DD9629E0001F0EF /* PBXContainerItemProxy */;
+		};
+		AF5C485F1DD9629E0001F0EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF5C483D1DD9629E0001F0EF /* useless pedometer */;
+			targetProxy = AF5C485E1DD9629E0001F0EF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AF5C48451DD9629E0001F0EF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF5C48461DD9629E0001F0EF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AF5C484A1DD9629E0001F0EF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF5C484B1DD9629E0001F0EF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AF5C48641DD9629E0001F0EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AF5C48651DD9629E0001F0EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF5C48671DD9629E0001F0EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6P9XFV29Y2;
+				INFOPLIST_FILE = "useless pedometer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "test.strings.useless-pedometer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		AF5C48681DD9629E0001F0EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6P9XFV29Y2;
+				INFOPLIST_FILE = "useless pedometer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "test.strings.useless-pedometer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		AF5C486A1DD9629E0001F0EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 6P9XFV29Y2;
+				INFOPLIST_FILE = "useless pedometerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "test.strings.useless-pedometerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/useless pedometer.app/useless pedometer";
+			};
+			name = Debug;
+		};
+		AF5C486B1DD9629E0001F0EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 6P9XFV29Y2;
+				INFOPLIST_FILE = "useless pedometerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "test.strings.useless-pedometerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/useless pedometer.app/useless pedometer";
+			};
+			name = Release;
+		};
+		AF5C486D1DD9629E0001F0EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 6P9XFV29Y2;
+				INFOPLIST_FILE = "useless pedometerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "test.strings.useless-pedometerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "useless pedometer";
+			};
+			name = Debug;
+		};
+		AF5C486E1DD9629E0001F0EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 6P9XFV29Y2;
+				INFOPLIST_FILE = "useless pedometerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "test.strings.useless-pedometerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "useless pedometer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF5C48391DD9629E0001F0EF /* Build configuration list for PBXProject "useless pedometer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF5C48641DD9629E0001F0EF /* Debug */,
+				AF5C48651DD9629E0001F0EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF5C48661DD9629E0001F0EF /* Build configuration list for PBXNativeTarget "useless pedometer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF5C48671DD9629E0001F0EF /* Debug */,
+				AF5C48681DD9629E0001F0EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AF5C48691DD9629E0001F0EF /* Build configuration list for PBXNativeTarget "useless pedometerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF5C486A1DD9629E0001F0EF /* Debug */,
+				AF5C486B1DD9629E0001F0EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AF5C486C1DD9629E0001F0EF /* Build configuration list for PBXNativeTarget "useless pedometerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF5C486D1DD9629E0001F0EF /* Debug */,
+				AF5C486E1DD9629E0001F0EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AF5C48361DD9629E0001F0EF /* Project object */;
+}
