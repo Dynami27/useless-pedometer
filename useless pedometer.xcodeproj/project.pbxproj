@@ -14,6 +14,7 @@
 		AF5C484C1DD9629E0001F0EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF5C484A1DD9629E0001F0EF /* LaunchScreen.storyboard */; };
 		AF5C48571DD9629E0001F0EF /* useless_pedometerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5C48561DD9629E0001F0EF /* useless_pedometerTests.swift */; };
 		AF5C48621DD9629E0001F0EF /* useless_pedometerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5C48611DD9629E0001F0EF /* useless_pedometerUITests.swift */; };
+		AF5C48701DD963910001F0EF /* uselessPedometerTableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5C486F1DD963910001F0EF /* uselessPedometerTableTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		AF5C485D1DD9629E0001F0EF /* useless pedometerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "useless pedometerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF5C48611DD9629E0001F0EF /* useless_pedometerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = useless_pedometerUITests.swift; sourceTree = "<group>"; };
 		AF5C48631DD9629E0001F0EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF5C486F1DD963910001F0EF /* uselessPedometerTableTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = uselessPedometerTableTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				AF5C48411DD9629E0001F0EF /* AppDelegate.swift */,
 				AF5C48431DD9629E0001F0EF /* ViewController.swift */,
+				AF5C486F1DD963910001F0EF /* uselessPedometerTableTableViewController.swift */,
 				AF5C48451DD9629E0001F0EF /* Main.storyboard */,
 				AF5C48481DD9629E0001F0EF /* Assets.xcassets */,
 				AF5C484A1DD9629E0001F0EF /* LaunchScreen.storyboard */,
@@ -262,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF5C48701DD963910001F0EF /* uselessPedometerTableTableViewController.swift in Sources */,
 				AF5C48441DD9629E0001F0EF /* ViewController.swift in Sources */,
 				AF5C48421DD9629E0001F0EF /* AppDelegate.swift in Sources */,
 			);
